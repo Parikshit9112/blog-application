@@ -1,0 +1,22 @@
+{
+    "blogs" :[
+    {
+        "title": "My new webside",
+        "body":"ethical hacking",
+        "author":"Parikshit",
+        "id":1
+    },
+    {
+        "title":"welcome party!",
+        "body":"web dev",
+        "author":"Rohit",
+        "id":2
+    },
+    {
+        "title":"spting boot",
+        "body":"Java Full Stack",
+        "author":"Parikshit",
+        "id":3
+        }
+    ]
+}
