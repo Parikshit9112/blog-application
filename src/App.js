@@ -1,7 +1,9 @@
+import BlogDetails from './BlogDetails';
 import Create from './Create';
 import Home from './Home';
 import Navbar from './Navbar';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
+import { BrowserRouter as Router, Switch } from 'react-router-dom/cjs/react-router-dom.min';
+import { Route } from 'react-router-dom/cjs/react-router-dom';
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
         </Route>
         <Route path="/create">
           <Create />
+        </Route>
+        <Route path="/blogs/:id">
+          <BlogDetails />
         </Route>
       </Switch>
      </div>

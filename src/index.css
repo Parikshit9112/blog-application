@@ -23,7 +23,7 @@
   margin-left: auto;
 }
 
-.navbar a{
+.navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding :6px;
@@ -35,7 +35,7 @@
 
 .content {
   max-width:600px;
-  margin: 40px;
+  margin: 40px auto; 
   padding :20px;
 
 }
@@ -54,4 +54,65 @@
   font-size: 20px;
   color:#f1356d;
   margin-bottom: 8px;
+}
+.blog-list h2{
+  color: #f1356d;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+
+.blog-details div{
+  margin: 20px 0;
+}
+
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create lable{
+  text-align: left;
+  display: block;
+}
+
+.create h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select{
+  width:100%;
+  padding:6px 10px;
+  margin: 10px 0;
+  border:1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button{
+  background: #f1356d;
+  color : #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+
 }
