@@ -1,10 +1,13 @@
 import { useState } from "react";
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 const Create = () => {
     const[title,setTitle]=useState('');
     const[body,setBody]=useState('');
     const[author,setAuthor]=useState('Select Author');
     const[isPending,setIsPending]=useState(false);
+    const history=useHistory();
+
     const handleSubmit=(e)=>{
         e.preventDefault();
         const blog={ title, body, author};
@@ -19,6 +22,7 @@ const Create = () => {
             setIsPending(false);
         })
          },1000);
+        history.push('/');
        
     }
 

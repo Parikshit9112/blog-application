@@ -73,6 +73,7 @@
 }
 
 .blog-details button {
+  margin-right: 10px ;
   background: #f1356d;
   color: #fff;
   border: 0;
